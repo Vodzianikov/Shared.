@@ -1,0 +1,32 @@
+// let sum;
+// const numberOfElements = 10;
+// for (let i = 1; i < numberOfElements; i++) {
+//     debugger;
+//     sum += i;
+// }
+
+// const theHalfOfSum = sum / 2;
+// console.log('the half of sum', theHalfOfSum);
+
+
+
+
+
+
+
+// const developerName = 'Maxim'
+// const programmingLanguage = 'JavaScript'
+
+
+// const programmingLanguages = {
+//     javaScript: 'javaScript',
+//     nodeJS: 'NodeJS'
+// }
+
+// if (programmingLanguage === programmingLanguages.javaScript) {
+//     console.log(`${developerName} является Front-end разработчиком`)
+// } else if (programmingLanguage === programmingLanguages.nodeJS) {
+//     console.log(`${developerName} является Back-end разработчиком`)
+// } else {
+//     console.log(`Язык программирования у ${developerName} неопределен`)
+// }

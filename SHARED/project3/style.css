@@ -1,0 +1,48 @@
+body {
+    background-color: brown;
+    color: #fff;
+    height: 100vh;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    margin: 0;
+}
+
+.counter {
+    width: 180px;
+    height: 180px;
+    border-radius: 50%;
+    border: 5px solid #fff;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 60px;
+    font-weight: bold;
+}
+
+.dec, .reset, .inc {
+    padding: 14px 30px;
+    border-radius: 10px;
+    outline: none;
+    border: 1px solid transparent;
+    margin: 10px;
+    text-transform: uppercase;
+    cursor: pointer;
+}
+
+.hovered {
+    background-color: brown;
+    color: #fff;
+    border: 1px solid #fff;
+    transition: all .3s ease;
+}
+
+.higher {
+    color: rgb(255, 212, 0);
+}
+
+.lower {
+    color: rgb(0, 165, 254);
+}
